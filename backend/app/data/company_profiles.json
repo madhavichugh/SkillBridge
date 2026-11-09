@@ -1,0 +1,82 @@
+{
+  "early_stage_startup": {
+    "name": "Early-Stage Startup",
+    "description": "Values high velocity, ownership, and full-stack breadth over rigid bureaucracy.",
+    "weights": {
+      "hard_skills": 0.35,
+      "tools_and_tech": 0.25,
+      "domain_knowledge": 0.20,
+      "soft_skills": 0.15,
+      "education_and_exp": 0.05
+    },
+    "prioritized_traits": [
+      "Rapid prototyping and MVP development",
+      "End-to-end feature ownership",
+      "Comfort with ambiguous requirements"
+    ]
+  },
+  "mid_size_product": {
+    "name": "Mid-Size Product Company",
+    "description": "Balanced focus between feature velocity, code quality, and scalable architecture.",
+    "weights": {
+      "hard_skills": 0.35,
+      "tools_and_tech": 0.25,
+      "soft_skills": 0.20,
+      "domain_knowledge": 0.15,
+      "education_and_exp": 0.05
+    },
+    "prioritized_traits": [
+      "Modular system design and refactoring",
+      "Cross-functional collaboration with PMs and designers",
+      "Automated testing and CI/CD discipline"
+    ]
+  },
+  "big_tech": {
+    "name": "Big Tech / Scale-Up",
+    "description": "Values deep computer science fundamentals, high-scale distributed systems, and algorithmic rigor.",
+    "weights": {
+      "hard_skills": 0.40,
+      "tools_and_tech": 0.20,
+      "soft_skills": 0.15,
+      "domain_knowledge": 0.15,
+      "education_and_exp": 0.10
+    },
+    "prioritized_traits": [
+      "Distributed systems design and microservices",
+      "High-throughput data processing and low latency",
+      "Structured code reviews and rigorous testing"
+    ]
+  },
+  "enterprise_bank": {
+    "name": "Enterprise / Bank / Financial Services",
+    "description": "Prioritizes data security, audit compliance, high availability, and regression-proof architectures.",
+    "weights": {
+      "domain_knowledge": 0.30,
+      "hard_skills": 0.30,
+      "tools_and_tech": 0.20,
+      "education_and_exp": 0.10,
+      "soft_skills": 0.10
+    },
+    "prioritized_traits": [
+      "Data protection, role-based access control (RBAC), and encryption",
+      "Enterprise SQL databases, ACID compliance, and query optimization",
+      "Strict change-management and automated audit trails"
+    ]
+  },
+  "consulting_service": {
+    "name": "Consulting / IT Services",
+    "description": "Emphasizes client communication, agile delivery frameworks, and quick adaptation to diverse tech stacks.",
+    "weights": {
+      "soft_skills": 0.30,
+      "hard_skills": 0.30,
+      "tools_and_tech": 0.20,
+      "domain_knowledge": 0.15,
+      "education_and_exp": 0.05
+    },
+    "prioritized_traits": [
+      "Stakeholder communication and client presentation",
+      "Quick onboarding into unfamiliar codebases",
+      "Agile and Scrum delivery practices"
+    ]
+  }
+}

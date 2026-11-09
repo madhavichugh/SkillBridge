@@ -1,0 +1,454 @@
+{
+  "roles": {
+    "electrical_engineer": {
+      "title": "Electrical & Electronics (ECE) Engineer",
+      "category": "Electronics & Hardware",
+      "usd": { "min": 78000, "median": 108000, "max": 155000 },
+      "inr": { "min": 650000, "median": 1250000, "max": 2400000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.8 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 108000, "inr": 1250000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 120000, "inr": 1450000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 142000, "inr": 1850000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 170000, "inr": 2500000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Embedded C & Microcontrollers", "premium_percent": 15 },
+        { "skill": "Multi-Layer PCB Design (Altium / KiCAD)", "premium_percent": 14 },
+        { "skill": "Digital Signal Processing (DSP)", "premium_percent": 12 },
+        { "skill": "Power Electronics & Circuit Simulation", "premium_percent": 10 }
+      ]
+    },
+    "embedded_systems_engineer": {
+      "title": "Embedded Systems & Firmware Engineer",
+      "category": "Electronics & Hardware",
+      "usd": { "min": 82000, "median": 115000, "max": 165000 },
+      "inr": { "min": 700000, "median": 1350000, "max": 2600000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 115000, "inr": 1350000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 128000, "inr": 1580000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 152000, "inr": 2050000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 182000, "inr": 2750000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Real-Time Operating Systems (RTOS / FreeRTOS)", "premium_percent": 16 },
+        { "skill": "Device Drivers & Embedded Linux", "premium_percent": 15 },
+        { "skill": "ARM Cortex-M Architecture", "premium_percent": 13 },
+        { "skill": "Hardware Communication Protocols (CAN/SPI/I2C)", "premium_percent": 11 }
+      ]
+    },
+    "vlsi_design_engineer": {
+      "title": "VLSI / ASIC / FPGA Design Engineer",
+      "category": "Electronics & Hardware",
+      "usd": { "min": 95000, "median": 135000, "max": 190000 },
+      "inr": { "min": 850000, "median": 1600000, "max": 3200000 },
+      "experience_tiers": { "entry": 0.85, "mid": 1.0, "senior": 1.5, "lead": 1.9 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 135000, "inr": 1600000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 152000, "inr": 1900000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 180000, "inr": 2500000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 218000, "inr": 3400000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "SystemVerilog & UVM Verification", "premium_percent": 18 },
+        { "skill": "Static Timing Analysis (STA) & Synthesis", "premium_percent": 16 },
+        { "skill": "FPGA Prototyping (Xilinx / Vivado)", "premium_percent": 14 },
+        { "skill": "RTL Coding & Microarchitecture", "premium_percent": 12 }
+      ]
+    },
+    "hardware_engineer": {
+      "title": "Hardware & PCB Design Engineer",
+      "category": "Electronics & Hardware",
+      "usd": { "min": 80000, "median": 112000, "max": 160000 },
+      "inr": { "min": 650000, "median": 1300000, "max": 2500000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.8 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 112000, "inr": 1300000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 124000, "inr": 1500000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 148000, "inr": 1950000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 178000, "inr": 2600000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "High-Speed PCB Layout (Altium / Cadence)", "premium_percent": 15 },
+        { "skill": "Signal Integrity & EMI/EMC Compliance", "premium_percent": 14 },
+        { "skill": "Schematic Capture & Component Engineering", "premium_percent": 10 }
+      ]
+    },
+    "robotics_automation_engineer": {
+      "title": "Robotics & Automation Engineer",
+      "category": "Core Engineering",
+      "usd": { "min": 84000, "median": 118000, "max": 170000 },
+      "inr": { "min": 720000, "median": 1380000, "max": 2700000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 118000, "inr": 1380000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 132000, "inr": 1620000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 156000, "inr": 2100000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 188000, "inr": 2850000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Robot Operating System (ROS / ROS2)", "premium_percent": 16 },
+        { "skill": "Motion Planning & Control Theory", "premium_percent": 14 },
+        { "skill": "PLC Programming & SCADA Integration", "premium_percent": 12 }
+      ]
+    },
+    "rf_telecom_engineer": {
+      "title": "RF & Wireless Systems Engineer",
+      "category": "Electronics & Hardware",
+      "usd": { "min": 88000, "median": 122000, "max": 175000 },
+      "inr": { "min": 750000, "median": 1420000, "max": 2750000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 122000, "inr": 1420000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 136000, "inr": 1680000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 160000, "inr": 2180000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 192000, "inr": 2950000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Antenna Design & EM Simulation (HFSS / CST)", "premium_percent": 17 },
+        { "skill": "5G / Cellular & Wireless Standards", "premium_percent": 15 },
+        { "skill": "RF Spectrum & Vector Network Analyzers", "premium_percent": 12 }
+      ]
+    },
+    "mechanical_engineer": {
+      "title": "Mechanical & CAD Design Engineer",
+      "category": "Core Engineering",
+      "usd": { "min": 75000, "median": 105000, "max": 150000 },
+      "inr": { "min": 600000, "median": 1150000, "max": 2200000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.75 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 105000, "inr": 1150000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 116000, "inr": 1320000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 138000, "inr": 1700000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 165000, "inr": 2300000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "3D CAD Modeling (SolidWorks / CATIA)", "premium_percent": 14 },
+        { "skill": "Finite Element Analysis (FEA / ANSYS)", "premium_percent": 13 },
+        { "skill": "Computational Fluid Dynamics (CFD)", "premium_percent": 12 },
+        { "skill": "Design for Manufacturing (DFM/DFA)", "premium_percent": 10 }
+      ]
+    },
+    "software_engineer": {
+      "title": "Software Engineer / Full Stack Developer",
+      "category": "Software & Cloud",
+      "usd": { "min": 85000, "median": 120000, "max": 165000 },
+      "inr": { "min": 700000, "median": 1400000, "max": 2500000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.8 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 120000, "inr": 1400000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 132000, "inr": 1650000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 155000, "inr": 2100000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 185000, "inr": 2800000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "System Design & Distributed Architecture", "premium_percent": 15 },
+        { "skill": "AWS / Cloud Infrastructure", "premium_percent": 12 },
+        { "skill": "Docker / Kubernetes", "premium_percent": 10 },
+        { "skill": "FastAPI / Microservices", "premium_percent": 8 }
+      ]
+    },
+    "backend_engineer": {
+      "title": "Backend Systems Engineer",
+      "category": "Software & Cloud",
+      "usd": { "min": 90000, "median": 125000, "max": 175000 },
+      "inr": { "min": 750000, "median": 1500000, "max": 2600000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 125000, "inr": 1500000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 138000, "inr": 1780000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 162000, "inr": 2250000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 195000, "inr": 3000000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "SQL Query Optimization & Database Internals", "premium_percent": 12 },
+        { "skill": "Distributed Caching (Redis)", "premium_percent": 10 },
+        { "skill": "System Architecture", "premium_percent": 14 },
+        { "skill": "Kafka / Event Streaming", "premium_percent": 15 }
+      ]
+    },
+    "frontend_engineer": {
+      "title": "Frontend Engineer",
+      "category": "Software & Cloud",
+      "usd": { "min": 80000, "median": 115000, "max": 160000 },
+      "inr": { "min": 650000, "median": 1300000, "max": 2300000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.75 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 115000, "inr": 1300000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 126000, "inr": 1520000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 148000, "inr": 1950000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 175000, "inr": 2600000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "TypeScript", "premium_percent": 12 },
+        { "skill": "Next.js / SSR", "premium_percent": 10 },
+        { "skill": "Performance Optimization & Web Vitals", "premium_percent": 11 },
+        { "skill": "Tailwind CSS & Design Systems", "premium_percent": 8 }
+      ]
+    },
+    "data_scientist": {
+      "title": "Data Scientist / AI Engineer",
+      "category": "Data & AI",
+      "usd": { "min": 95000, "median": 135000, "max": 185000 },
+      "inr": { "min": 850000, "median": 1600000, "max": 2800000 },
+      "experience_tiers": { "entry": 0.85, "mid": 1.0, "senior": 1.5, "lead": 1.9 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 135000, "inr": 1600000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 150000, "inr": 1900000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 178000, "inr": 2500000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 215000, "inr": 3400000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "LLM Fine-Tuning & RAG", "premium_percent": 18 },
+        { "skill": "PyTorch / Deep Learning", "premium_percent": 14 },
+        { "skill": "MLOps & Model Deployment", "premium_percent": 12 },
+        { "skill": "Feature Engineering & Statistics", "premium_percent": 10 }
+      ]
+    },
+    "cloud_devops_engineer": {
+      "title": "Cloud & DevOps Infrastructure Engineer",
+      "category": "Software & Cloud",
+      "usd": { "min": 92000, "median": 128000, "max": 178000 },
+      "inr": { "min": 800000, "median": 1550000, "max": 2900000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 128000, "inr": 1550000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 142000, "inr": 1800000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 168000, "inr": 2350000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 200000, "inr": 3100000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Kubernetes Cluster Administration", "premium_percent": 16 },
+        { "skill": "Terraform / Infrastructure as Code", "premium_percent": 14 },
+        { "skill": "AWS / Multi-Cloud Security", "premium_percent": 13 }
+      ]
+    },
+    "product_manager": {
+      "title": "Technical Product Manager",
+      "category": "Product & Management",
+      "usd": { "min": 90000, "median": 130000, "max": 180000 },
+      "inr": { "min": 800000, "median": 1600000, "max": 3000000 },
+      "experience_tiers": { "entry": 0.85, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 130000, "inr": 1600000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 145000, "inr": 1880000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 172000, "inr": 2450000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 208000, "inr": 3250000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Product Strategy & Roadmap Planning", "premium_percent": 15 },
+        { "skill": "Data Analytics & User Experimentation", "premium_percent": 13 },
+        { "skill": "System Architecture Literacy", "premium_percent": 12 }
+      ]
+    },
+    "registered_nurse": {
+      "title": "Registered Nurse (RN) / Clinical Specialist",
+      "category": "Healthcare & Medicine",
+      "usd": { "min": 68000, "median": 89000, "max": 130000 },
+      "inr": { "min": 450000, "median": 850000, "max": 1800000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.75 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 89000, "inr": 850000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 98000, "inr": 1020000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 115000, "inr": 1350000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 138000, "inr": 1850000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Critical Care / ICU Specialty", "premium_percent": 16 },
+        { "skill": "Electronic Health Records (Epic / Cerner)", "premium_percent": 14 },
+        { "skill": "Advanced Clinical Assessment & Triage", "premium_percent": 12 },
+        { "skill": "Patient Advocacy & Case Management", "premium_percent": 10 }
+      ]
+    },
+    "financial_analyst": {
+      "title": "Financial Analyst / Investment Specialist",
+      "category": "Finance & Accounting",
+      "usd": { "min": 72000, "median": 96000, "max": 148000 },
+      "inr": { "min": 600000, "median": 1150000, "max": 2400000 },
+      "experience_tiers": { "entry": 0.85, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 96000, "inr": 1150000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 108000, "inr": 1350000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 128000, "inr": 1750000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 155000, "inr": 2400000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Financial Modeling & Valuation (DCF / LBO)", "premium_percent": 16 },
+        { "skill": "Advanced Excel & Power Query Automation", "premium_percent": 14 },
+        { "skill": "CFA Credential / Charterholder", "premium_percent": 15 },
+        { "skill": "GAAP Compliance & Variance Forecasting", "premium_percent": 11 }
+      ]
+    },
+    "accountant": {
+      "title": "Accountant / Corporate Tax Specialist",
+      "category": "Finance & Accounting",
+      "usd": { "min": 65000, "median": 85000, "max": 130000 },
+      "inr": { "min": 500000, "median": 950000, "max": 2000000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.8 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 85000, "inr": 950000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 95000, "inr": 1120000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 114000, "inr": 1450000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 138000, "inr": 2050000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "CPA License / Chartered Accountant", "premium_percent": 17 },
+        { "skill": "ERP Systems (SAP / NetSuite / QuickBooks)", "premium_percent": 14 },
+        { "skill": "Internal Controls & Audit Preparation", "premium_percent": 12 },
+        { "skill": "Corporate Tax Strategy & Filings", "premium_percent": 11 }
+      ]
+    },
+    "marketing_specialist": {
+      "title": "Digital Marketing & Growth Specialist",
+      "category": "Marketing & Sales",
+      "usd": { "min": 62000, "median": 88000, "max": 135000 },
+      "inr": { "min": 500000, "median": 950000, "max": 2100000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.8 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 88000, "inr": 950000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 99000, "inr": 1150000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 118000, "inr": 1500000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 144000, "inr": 2150000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Technical SEO & Conversion Rate Optimization (CRO)", "premium_percent": 16 },
+        { "skill": "Paid Media Strategy & Multi-Touch Attribution", "premium_percent": 14 },
+        { "skill": "Marketing Automation (HubSpot / Marketo)", "premium_percent": 13 },
+        { "skill": "Data Analytics & Tag Manager Architecture", "premium_percent": 12 }
+      ]
+    },
+    "sales_executive": {
+      "title": "Sales & Account Executive",
+      "category": "Marketing & Sales",
+      "usd": { "min": 65000, "median": 95000, "max": 160000 },
+      "inr": { "min": 550000, "median": 1100000, "max": 2500000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.5, "lead": 1.9 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 95000, "inr": 1100000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 108000, "inr": 1320000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 130000, "inr": 1750000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 165000, "inr": 2600000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Enterprise B2B Solution Selling", "premium_percent": 17 },
+        { "skill": "Salesforce CRM & Pipeline Analytics", "premium_percent": 13 },
+        { "skill": "Contract Negotiation & Deal Structuring", "premium_percent": 14 },
+        { "skill": "Key Stakeholder Relationship Management", "premium_percent": 11 }
+      ]
+    },
+    "hr_specialist": {
+      "title": "Human Resources & Talent Specialist",
+      "category": "People & Operations",
+      "usd": { "min": 60000, "median": 82000, "max": 125000 },
+      "inr": { "min": 450000, "median": 850000, "max": 1800000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.75 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 82000, "inr": 850000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 92000, "inr": 1020000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 110000, "inr": 1320000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 132000, "inr": 1850000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "SHRM-CP / PHR Professional Certification", "premium_percent": 16 },
+        { "skill": "HRIS Administration (Workday / BambooHR)", "premium_percent": 14 },
+        { "skill": "Full-Cycle Executive Sourcing Strategy", "premium_percent": 12 },
+        { "skill": "Compensation Benchmarking & Labor Compliance", "premium_percent": 11 }
+      ]
+    },
+    "operations_manager": {
+      "title": "Operations & Project Specialist",
+      "category": "People & Operations",
+      "usd": { "min": 70000, "median": 95000, "max": 145000 },
+      "inr": { "min": 600000, "median": 1100000, "max": 2200000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.45, "lead": 1.8 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 95000, "inr": 1100000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 106000, "inr": 1280000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 126000, "inr": 1650000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 152000, "inr": 2300000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Lean Six Sigma / Process Optimization", "premium_percent": 15 },
+        { "skill": "Cross-Functional Agile Project Leadership", "premium_percent": 14 },
+        { "skill": "Vendor Procurement & Contract Management", "premium_percent": 12 },
+        { "skill": "Data-Driven Workflow KPIs & SLA Monitoring", "premium_percent": 11 }
+      ]
+    },
+    "graphic_designer": {
+      "title": "Graphic / Visual & UI Designer",
+      "category": "Design & Creative",
+      "usd": { "min": 58000, "median": 80000, "max": 120000 },
+      "inr": { "min": 450000, "median": 800000, "max": 1700000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.75 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 80000, "inr": 800000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 90000, "inr": 950000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 106000, "inr": 1250000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 128000, "inr": 1750000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Design Systems & Figma Prototyping", "premium_percent": 16 },
+        { "skill": "Brand Identity Architecture & Art Direction", "premium_percent": 14 },
+        { "skill": "Adobe Creative Cloud (Illustrator / Photoshop / InDesign)", "premium_percent": 12 },
+        { "skill": "User Experience (UX) Research & Usability Testing", "premium_percent": 13 }
+      ]
+    },
+    "teacher_educator": {
+      "title": "Educator / Instructional Specialist",
+      "category": "Education & Training",
+      "usd": { "min": 52000, "median": 72000, "max": 105000 },
+      "inr": { "min": 400000, "median": 700000, "max": 1400000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.35, "lead": 1.65 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 72000, "inr": 700000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 80000, "inr": 820000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 94000, "inr": 1050000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 112000, "inr": 1450000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Curriculum Development & Rubric Architecture", "premium_percent": 15 },
+        { "skill": "Educational Technology & LMS Administration", "premium_percent": 13 },
+        { "skill": "Differentiated Instruction & Student Analytics", "premium_percent": 12 },
+        { "skill": "Classroom Leadership & Cross-Team Mentorship", "premium_percent": 10 }
+      ]
+    },
+    "legal_counsel": {
+      "title": "Legal Counsel / Compliance Specialist",
+      "category": "Legal & Compliance",
+      "usd": { "min": 85000, "median": 125000, "max": 185000 },
+      "inr": { "min": 750000, "median": 1400000, "max": 2800000 },
+      "experience_tiers": { "entry": 0.85, "mid": 1.0, "senior": 1.45, "lead": 1.85 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 125000, "inr": 1400000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 138000, "inr": 1650000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 162000, "inr": 2100000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 198000, "inr": 2900000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Commercial Contract Drafting & Redlining", "premium_percent": 16 },
+        { "skill": "Regulatory & Privacy Compliance (HIPAA / GDPR)", "premium_percent": 15 },
+        { "skill": "Corporate Governance & Policy Development", "premium_percent": 13 },
+        { "skill": "Risk Assessment & Dispute Resolution", "premium_percent": 12 }
+      ]
+    },
+    "default": {
+      "title": "Professional Specialist",
+      "category": "Professional Practice",
+      "usd": { "min": 68000, "median": 92000, "max": 140000 },
+      "inr": { "min": 500000, "median": 950000, "max": 2100000 },
+      "experience_tiers": { "entry": 0.8, "mid": 1.0, "senior": 1.4, "lead": 1.75 },
+      "growth_projection": [
+        { "year": "Current (Baseline)", "usd": 92000, "inr": 950000 },
+        { "year": "Year 1 (+Skill Uplift)", "usd": 102000, "inr": 1120000 },
+        { "year": "Year 3 (Mid-to-Senior)", "usd": 122000, "inr": 1450000 },
+        { "year": "Year 5 (Senior/Lead)", "usd": 148000, "inr": 2100000 }
+      ],
+      "high_impact_skills": [
+        { "skill": "Stakeholder Leadership & Strategic Planning", "premium_percent": 14 },
+        { "skill": "Process Optimization & Workflow Management", "premium_percent": 13 },
+        { "skill": "Data-Driven Analysis & Performance Tracking", "premium_percent": 11 }
+      ]
+    }
+  }
+}
